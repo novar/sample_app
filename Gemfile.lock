@@ -28,6 +28,10 @@ GEM
       activemodel (= 3.0.7)
       activesupport (= 3.0.7)
     activesupport (3.0.7)
+    annotated_models (3.0.2)
+      activesupport
+      annotated_models
+      i18n
     arel (2.0.10)
     builder (2.1.2)
     diff-lcs (1.1.2)
@@ -89,6 +93,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotated_models
   rails
   rspec
   rspec-rails
