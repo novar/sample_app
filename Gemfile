@@ -1,12 +1,13 @@
 source 'http://rubygems.org'
 
-gem 'rails'
+gem 'rails', '3.0.7'
+gem 'gravatar_image_tag'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
+0
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -35,4 +36,5 @@ end
 group :development, :test do
 	gem 'rspec'
    gem 'webrat'
+   gem 'factory_girl_rails', '1.0'
 end
